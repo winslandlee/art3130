@@ -1,0 +1,22 @@
+body {
+    background-color: lightsteelblue ;
+    font-family: monospace;
+}
+
+h1 {
+    color: red;
+}
+
+div {
+    border: 5px dashed green;
+    
+}
+
+.class-name {
+    border-color: orange;
+}
+
+#id-name {
+    background-color: coral;
+}
+
