@@ -35,10 +35,6 @@ header {
     width: 60em;
 }
 
-.summary {
-    align-content: center;
-    flex-wrap: wrap;
-}
 .explanation {
     background-color: #9ba8ae;
     padding: 10px;
