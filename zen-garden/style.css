@@ -1,114 +1,69 @@
-/*monochrome colors
-#e3e8ea	
-#bccad0	
-#9ba8ae	
-#707a7e	
-#495054 */
+html {
+    background-image: url("/images/background_edited.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
 
 body {
-    font-family: helvetica;
-    font-weight: 100;
+    font-family: helvetica, sans-serif;
     font-size: 24px;
-    background-color: white;
-    color: #495054;
-    width: 78%;
+    color: white;
+    max-width: 45%;
+    text-align: center;
+    margin: auto;
+}
+
+a {
+    color: white;
 }
 
 abbr {
     text-decoration: none;
 }
 
-a {
-  color: #707a7e;
-
-}
-
-.intro {
-    display: flex;
-    justify-content: flex-start;
-    background-color: #bccad0;
-    padding: 10px;
-    margin: -10px;
-}
-
 header {
-    width: 60em;
+    font-size: 80px;
+    padding: 20px 0px 20px 0px;
 }
 
-.explanation {
-    background-color: #9ba8ae;
-    padding: 10px;
-    margin: -10px;
+
+
+div {
+    padding: 10px 0px 10px 0px;
+    border-bottom-style: solid;
+    border-color: white;
 }
 
-.participation {
-    background-color: #707a7e;
-    padding: 10px;
-    margin: -10px;
+.wrapper {
+    font-size: 16px;
+    display: flex;
+    align-content: center;
+    text-align: left;
+    margin: -5px auto 0px;
 }
 
-.participation a {
-    color: #9ba8ae;
+div[role = "presentation"] {
+    border-bottom-style: none;
 }
 
-.benefits {
-    background-color: #9ba8ae;
-    padding: 10px;
-    margin: -10px;
+.page-wrapper {
+    border-bottom-style: none;
 }
 
-.requirements {
-    background-color: #bccad0;
-    padding: 10px;
-    margin: -10px;
+.zen-resources {
+    border-bottom-style: none;
 }
 
-.requirements a {
-    color: #495054;
+.design-archives {
+    border-bottom-style: none;
+}
+
+.design-selection {
+    border-bottom-style: none;
 }
 
 footer {
     padding: 10px;
-    margin: 10px 10px 0px -10px;
-}
-
-footer a {
-    color: #495054;
-}
-
-.sidebar {
-    background-color: aliceblue;
-    font-size: 18px;
-    width: 20%;
-    height: 100%;
-    position: fixed;
-    margin-top; 150px;
-    z-index: 1;
-    top: 0;
-    right: 0;
-    padding: 10px;
-}
-
-.sidebar wrapper {
-    padding: 40px;
-}
-
-.design-selection {
-    background-color: #9ba8ae;
-    padding: 10px;
-    margin: -10px;
-}
-
-.design-selection a {
-    color: #495054;
-}
-
-.design-archives {
-    background-color: #bccad0;
-    padding: 10px;
-    margin: -10px;
-}
-
-.zen-resources {
-    background-color: aliceblue;
 }

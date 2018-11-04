@@ -1,0 +1,114 @@
+/*monochrome colors
+#e3e8ea	
+#bccad0	
+#9ba8ae	
+#707a7e	
+#495054 */
+
+body {
+    font-family: helvetica;
+    font-weight: 100;
+    font-size: 24px;
+    background-color: white;
+    color: #495054;
+    width: 78%;
+}
+
+abbr {
+    text-decoration: none;
+}
+
+a {
+  color: #707a7e;
+
+}
+
+.intro {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #bccad0;
+    padding: 10px;
+    margin: -10px;
+}
+
+header {
+    width: 60em;
+}
+
+.explanation {
+    background-color: #9ba8ae;
+    padding: 10px;
+    margin: -10px;
+}
+
+.participation {
+    background-color: #707a7e;
+    padding: 10px;
+    margin: -10px;
+}
+
+.participation a {
+    color: #9ba8ae;
+}
+
+.benefits {
+    background-color: #9ba8ae;
+    padding: 10px;
+    margin: -10px;
+}
+
+.requirements {
+    background-color: #bccad0;
+    padding: 10px;
+    margin: -10px;
+}
+
+.requirements a {
+    color: #495054;
+}
+
+footer {
+    padding: 10px;
+    margin: 10px 10px 0px -10px;
+}
+
+footer a {
+    color: #495054;
+}
+
+.sidebar {
+    background-color: aliceblue;
+    font-size: 18px;
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    margin-top; 150px;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    padding: 10px;
+}
+
+.sidebar wrapper {
+    padding: 40px;
+}
+
+.design-selection {
+    background-color: #9ba8ae;
+    padding: 10px;
+    margin: -10px;
+}
+
+.design-selection a {
+    color: #495054;
+}
+
+.design-archives {
+    background-color: #bccad0;
+    padding: 10px;
+    margin: -10px;
+}
+
+.zen-resources {
+    background-color: aliceblue;
+}
