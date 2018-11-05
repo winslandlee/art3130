@@ -1,13 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto:300');
+
+
 html {
     background-image: url("/images/background_edited.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-
 }
 
 body {
-    font-family: helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 24px;
     color: white;
     max-width: 45%;
@@ -23,12 +25,15 @@ abbr {
     text-decoration: none;
 }
 
-header {
-    font-size: 80px;
-    padding: 20px 0px 20px 0px;
+h3 {
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 1.3333px;
 }
-
-
+header {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 80px;
+    padding: 0px 0px 20px 0px;
+}
 
 div {
     padding: 10px 0px 10px 0px;
@@ -46,6 +51,7 @@ div {
 
 div[role = "presentation"] {
     border-bottom-style: none;
+    padding: -20px;
 }
 
 .page-wrapper {
