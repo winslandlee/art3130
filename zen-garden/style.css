@@ -32,6 +32,7 @@ h3 {
 header {
     font-family: 'Abril Fatface', cursive;
     font-size: 80px;
+    font-size: 80px;letter-spacing: 2px;
     padding: 0px 0px 20px 0px;
 }
 
@@ -68,8 +69,12 @@ div[role = "presentation"] {
 
 .design-selection {
     border-bottom-style: none;
+    padding: 10px;
 }
 
+ul {
+    padding: 20px;
+}
 footer {
     padding: 10px;
 }
