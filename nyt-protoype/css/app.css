@@ -1,0 +1,144 @@
+#menu {
+    padding: 0px 10px;
+    transform: translateY(30%);
+    display: inline-flex;
+    list-style-type: none; 
+    font-size: 12px;
+}
+
+h6 {
+    font-size: 12px;
+}
+p {
+    margin-bottom: 0px;
+}
+.top-info {
+    padding: 15px 0px 0px 0px;
+}
+
+.nytimes {
+    font-weight: bolder;
+    margin-top: -20px;
+}
+
+.bottomgreyborder {
+    border-bottom-style: solid; 
+    border-bottom-color: lightgrey; 
+    border-bottom-width: thin;
+}
+.cell_padding_left {
+    padding-left: 10px;
+}
+
+.articlecontent {
+    font-size: 14px;
+    color: grey;
+    font-family: serif;
+}
+
+.articletitle {
+    font-weight: bold;
+    font-family: serif;
+    font-size: 16px;
+}
+
+.banner {
+    font-size: 12px;
+    font-weight: bold;
+}
+.banner-content {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-right-style: solid; 
+    border-right-color: lightgrey; 
+    border-right-width: thin;
+}
+
+.banner-content-last {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.bottom_black_border {
+    padding-right: -10px;
+    border-bottom-style: solid; 
+    border-bottom-color: black; 
+    border-bottom-width: thin
+}
+
+.banner-content-image {
+    height: 50px;
+    width: 50px;
+    margin-left: 0.9375rem; 
+}
+
+.stocks {
+    font-weight: 400;
+}
+
+.subscribe {
+    margin-right: 10px;
+}
+
+.right_border {
+    border-right-style: solid; 
+    border-right-color: lightgrey; 
+    border-right-width: thin;
+}
+
+.languages {
+    font-size: 12px;
+    margin-top: -10px;
+}
+
+.articles {
+    padding: 0px 10px 10px 0px;
+}
+
+.content_padding_bottom {
+    padding-bottom: 10px;
+}
+
+.content_padding_top {
+    padding-top: 10px;
+}
+
+.content_divider {
+    border-right-style: solid; 
+    border-right-color: black; 
+    border-right-width: thin;
+}
+
+.category {
+    font-size: 12px;
+    font-weight: bold;
+    font-variant-caps: all-small-caps;
+    letter-spacing: .075rem;
+}
+
+.content_padding_right {
+    padding-right: 10px;
+}
+
+.ad {
+    width: 100%;
+    background-color: grey;
+    padding: 150px;
+    margin: 10px 0px;
+}
+
+.double_bottom_border {
+    border-bottom-style: double;
+    border-bottom-width: medium;
+}
+
+.sidebar_authorname {
+    font-weight: bold;
+    font-family: serif;
+    font-size: 16px;
+    color: darkgrey;
+}
+
+.content_padding_tb {
+    padding: 10px 0px;
+}
