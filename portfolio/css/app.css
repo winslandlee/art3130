@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    letter-spacing: .07em;
+    background-color: #E1F0E5;
+    color: #505050;
+    font-size: 12px;
+}
+.top-nav {
+    padding-top: 120px;
+}
+
+.menu-options {
+    text-align: right;
+}
+
+.content-padding-top {
+    padding-top: 30px;
+}
+
+.name {
+    font-size: 20px;
+    position: relative;
+    top: -10px;
+}
+
+.socialmedia {
+    margin: auto;
+    padding-top: 50px;
+}
+
+a {
+    color: #505050;
+}
+
+.menuoffcampus {
+    padding-top: 15px;
+    margin-bottom: -50px
+}
+
+.socialmedialinks {
+    padding: 0px 10px;
+}
+
+.work-padding {
+    padding-right: 8px;
+}
+
+.center {
+    justify-content: center;
+}
+
+.portfolio-image-padding {
+    padding: 10px 0px;
+}
+
+.portfolio-height {
+    height: 600px;
+}
