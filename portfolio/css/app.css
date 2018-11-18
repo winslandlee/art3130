@@ -59,3 +59,32 @@ a {
 .portfolio-height {
     height: 600px;
 }
+
+/* SINGLE COLUMN FOR SMALL SCREENS BY DEFAULT (mobile first approach) */
+.masonry {
+  column-count:1;
+  column-gap:0em;
+}
+
+.masonry .item {
+  background-color: #eee;
+    display: inline-block;
+    margin: 0 0 1em;
+    width: 100%;
+}
+
+/* TWO COLUMNS FOR MEDIUM SCREENS AND UP */
+@media screen and (min-width: 500px) {
+  .masonry {
+    column-count:2;
+    column-gap:1em;
+  }
+}
+
+/* THREE COLUMNS FOR LARGE SCREENS AND UP */
+@media screen and (min-width: 1024px) {
+  .masonry {
+    column-count:3;
+    column-gap:1em;
+  }
+}
