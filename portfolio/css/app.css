@@ -5,7 +5,7 @@ body {
     font-family: 'Quicksand', sans-serif;
     font-weight: 700;
     letter-spacing: .07em;
-    background-color: #E1F0E5;
+    background-color: #fafafa;
     color: #505050;
     font-size: 12px;
 }
@@ -13,10 +13,6 @@ body {
     padding-top: 120px;
 }
 
-p {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
-}
 .menu-options {
     text-align: right;
 }
@@ -66,5 +62,6 @@ a {
 }
 
 .about {
-    font-family: 'Open Sans', sans-serif; !important
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
 }
