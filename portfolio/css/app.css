@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,700');
 
 body {
     font-family: 'Quicksand', sans-serif;
@@ -12,6 +13,10 @@ body {
     padding-top: 120px;
 }
 
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
 .menu-options {
     text-align: right;
 }
@@ -58,4 +63,8 @@ a {
 
 .portfolio-height {
     height: 600px;
+}
+
+.about {
+    font-family: 'Open Sans', sans-serif; !important
 }
