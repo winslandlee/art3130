@@ -2,15 +2,14 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,700');
 
 body {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     letter-spacing: .07em;
-    background-color: #fafafa;
     color: #505050;
-    font-size: 12px;
+    font-size: .5em;
 }
 .top-nav {
-    padding-top: 120px;
+    padding-top: 100px;
 }
 
 .menu-options {
@@ -18,7 +17,7 @@ body {
 }
 
 .content-padding-top {
-    padding-top: 30px;
+    padding-top: 10px;
 }
 
 .name {
@@ -32,13 +31,22 @@ body {
     padding-top: 50px;
 }
 
+@media screen and (max-width: 640px) {
+
+    .socialmedia {
+        padding-top: 20px;
+    }
+}
+
 a {
     color: #505050;
 }
 
+a img {
+    padding: 5px 0px;
+}
 .menuoffcampus {
-    padding-top: 15px;
-    margin-bottom: -50px
+    padding-top: 30px;
 }
 
 .socialmedialinks {
@@ -54,7 +62,7 @@ a {
 }
 
 .portfolio-image-padding {
-    padding: 10px 0px;
+    padding: 10px 10px;
 }
 
 .portfolio-height {
@@ -65,3 +73,41 @@ a {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
 }
+
+/* SINGLE COLUMN FOR SMALL SCREENS BY DEFAULT (mobile first approach) */
+.masonry {
+  column-count:1;
+  column-gap:0em;
+}
+
+.masonry .item {
+  background-color: #eee;
+    display: inline-block;
+    margin: 0 0 1em;
+    width: 100%;
+}
+
+/* TWO COLUMNS FOR MEDIUM SCREENS AND UP */
+@media screen and (min-width: 640px) {
+  .masonry {
+    column-count:2;
+    column-gap:1em;
+  }
+}
+
+/* THREE COLUMNS FOR LARGE SCREENS AND UP */
+@media screen and (min-width: 1024px) {
+  .masonry {
+    column-count:3;
+    column-gap:1em;
+  }
+}
+
+.sidebarmenu-options {
+    padding-top: 10px;
+}
+
+.sidebarmenu {
+    background-color: #fafafa; 
+}
+

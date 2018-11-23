@@ -2740,7 +2740,7 @@ a.button:hover, a.button:focus {
   .off-canvas.is-transition-overlap {
     z-index: 13; }
     .off-canvas.is-transition-overlap.is-open {
-      box-shadow: 0 0 10px rgba(10, 10, 10, 0.7); }
+      box-shadow: unset; /* 0 0 10px rgba(10, 10, 10, 0.7);*/ }
   .off-canvas.is-open {
     -ms-transform: translate(0, 0);
         transform: translate(0, 0); }
