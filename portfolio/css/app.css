@@ -6,7 +6,7 @@ body {
     font-weight: 700;
     letter-spacing: .07em;
     color: #505050;
-    font-size: .5em;
+    font-size: .75em;
 }
 .top-nav {
     padding-top: 100px;
@@ -17,18 +17,19 @@ body {
 }
 
 .content-padding-top {
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 .name {
     font-size: 20px;
     position: relative;
     top: -10px;
+    letter-spacing: 0px;
 }
 
 .socialmedia {
     margin: auto;
-    padding-top: 50px;
+    padding-top: 30px;
 }
 
 @media screen and (max-width: 640px) {
