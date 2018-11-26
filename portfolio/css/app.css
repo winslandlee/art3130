@@ -112,3 +112,36 @@ a img {
     background-color: #fafafa; 
 }
 
+
+.project_padding {
+    padding: 30px 50px;
+}
+
+.project_image {
+    
+}
+
+.project_title {
+    padding-top: 30px;
+    font-size: 16px;
+    position: relative;
+    top: -10px;
+    letter-spacing: 0px;
+}
+
+.project_description {
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.project-subimage {
+    
+}
+
+.project_subimages {
+    padding: 5px;
+}
+
+.project_subimage_margin {
+    margin: 0px -5px;
+}
